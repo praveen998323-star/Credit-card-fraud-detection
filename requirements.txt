@@ -1,0 +1,22 @@
+# ════════════════════════════════════════════
+#   CREDIT CARD FRAUD DETECTION — REQUIREMENTS
+#   Install with: pip install -r requirements.txt
+# ════════════════════════════════════════════
+
+# ── Core ML & Data Science ──────────────────
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+imbalanced-learn==0.12.3   # SMOTE for oversampling
+joblib==1.4.0              # Model serialization
+
+# ── Gradient Boosting ───────────────────────
+xgboost==2.0.3             # XGBoost model (optional but recommended)
+
+# ── Web Framework ───────────────────────────
+flask==3.0.3               # Backend web server
+flask-cors==4.0.0          # Cross-origin requests
+
+# ── Visualization (for notebooks) ───────────
+matplotlib==3.8.4
+seaborn==0.13.2
